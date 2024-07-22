@@ -45,7 +45,7 @@ int main()
         // Dynamically re-allocate memory using realloc()
         int* temp = (int*)realloc(ptr, n * sizeof(int));
       
-        if (temp== NULL) {
+        if (temp == NULL) {
             printf("Reallocation Failed\n");
             free(ptr);
             exit(0);
